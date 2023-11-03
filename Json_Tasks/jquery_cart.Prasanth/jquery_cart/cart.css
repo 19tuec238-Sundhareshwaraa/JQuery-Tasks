@@ -1,0 +1,87 @@
+body{
+    background-color: whitesmoke;
+    font-size: 16px;
+}
+.box{
+    background-color: whitesmoke; 
+    border-right: 1px groove gray;
+}
+.nav-item a{
+    display: flex;
+    align-items: center;
+}
+.img{
+    height:130px;
+    width: 150px;
+    align-items: center;
+}
+.searchBar,.searchBtn{
+    border: none;
+    background-color: whitesmoke;
+}
+.searchBar:focus{
+   box-shadow: none;
+    background-color: whitesmoke;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: #2690e186 0px 7px 29px 0px;
+}
+.card{
+    background-color: whitesmoke;
+    border: none;
+    /* box-shadow: rgba(105, 101, 101, 0.4) 0px 7px 29px 0px; */
+    box-shadow: #2690e12f 0px 7px 29px 0px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+.minus,
+.plus {
+    border: none;
+    width: 22px;
+    height: 23px;
+    padding-bottom: 5px;
+    background: #dee0ee;
+    text-decoration: none;
+    text-align: center;
+    line-height: 19px;
+}
+  .inputVal {
+    width: 26px;
+    height: 23px;
+    text-align: center;
+    border: none;
+    background: #fff;
+    color: #8184a1;
+  }
+.cartBtn{
+    /* background-color: rgb(203, 249, 135); */
+    width: 55%;
+    background-color:#2690e1;
+    font-size: 14px;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+}
+.cartBtn:hover{
+    background-color: greenyellow;
+    color: black;
+}
+.cart_img{
+    height: 120px;
+    float: left;
+}
+
+.del{
+    color: red;
+    cursor: pointer;
+}
+
+.no-items:hover{
+    transform: scale(1.4);
+}

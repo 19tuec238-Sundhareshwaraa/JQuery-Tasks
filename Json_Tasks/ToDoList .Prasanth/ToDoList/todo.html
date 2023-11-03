@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="todo.css">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <h1 class="text-center" >Task Management Dashboard</h1>
+        <div class="col box1 col-md-5 mx-auto p-4 mb-5">
+            <div class="d-flex justify-content-between align-items-center m-3" >
+                <h2>Task List</h2>
+                <button class="showbtn me-2"><span class="material-symbols-outlined p-1 arrow" style="color: white;">keyboard_double_arrow_right</span></button>
+            </div>
+            <textarea class="value p-2 m-2 mb-4" placeholder="Description"></textarea>
+            <input type="date" class="date p-2 m-2 mb-3">
+            <select id="status" class="p-2 m-2 mt-4 mb-3">
+                <option value="In Progress">In Progress</option>
+                <option value="Pending">Pending</option>
+            </select>
+            <button id="add"><span class="material-symbols-outlined btn" style="color: white;">add</span></button>
+            <div class="items mt-5"></div>
+        </div>
+        <div class="col box1 box2 col-md-5 mx-auto p-4 mb-5">
+            <!-- <div class="d-flex justify-content-between align-items-center m-3">
+                <h1>Completed Tasks</h1>
+            </div>
+            <div class="completed_items"></div> -->
+            <div class="nav-tabs mt-3">
+                <ul class="nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-bs-toggle="tab" href="#pendingTab">Pending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#inProgressTab">In Progress</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="tab" href="#completedTab" id="tab-com">Completed</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="tab-content mt-3">
+                <div id="pendingTab" class="tab-pane active">
+                    <div class="completed_items"></div>
+                </div>
+                <div id="completedTab" class="tab-pane">
+                    <div class="completed_items"></div>
+                </div>
+                <div id="inProgressTab" class="tab-pane">
+                    <div class="completed_items"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="todo.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoppingCart</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top mb-4" style="background-color:#1995f5;">
+        <a class="navbar-brand mb-0 mx-sm-4 pe-5 ps-5" href="#">
+            <img src="assets/images/logo2.png" style="height:44px;width: 68px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto ps-4">
+                <li class="nav-item">
+                    <form class="form d-flex searchForm" style="background-color: whitesmoke; border-radius: 10px;max-width: 400px;">
+                        <input class="form-control searchBar" id="searchcart" placeholder="Search..." autocomplete="off">
+                        <button class="btn btn-outline-primary searchBtn" style="float: right;" type="submit">
+                            <span class="material-symbols-outlined mt-2">search</span>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link me-3" href="#" style="color: whitesmoke;">
+                        <span class="material-symbols-outlined">shopping_cart</span> Cart
+                    </a>
+                </li>
+                <li class="nav-item me-5">
+                    <a class="nav-link" href="#" style="color: whitesmoke;">
+                        <span class="material-symbols-outlined">person</span> Sign In
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    
+
+
+    <div class="container-fluid ms-auto mb-5">
+        <div class="row">
+            <div class="col col-sm-6 col-md-8 box me-3 p-4">
+                <div class="row cardBox">
+                    <img src="assets/images/notfound.png" class="navbar-brand no-items mx-auto w-25" style="display: none;cursor: pointer;">
+                    </img>      
+                </div>       
+            </div>
+
+            <div class="col col-md-3 ms-md-4 box2" style="background-color: whitesmoke;">
+                <div>
+                    <div class="cart-container"></div>
+                    <img src="assets/images/cart1.png" class="img-fluid" style="height: 420px;width:100%;">
+                    <div class="total-amount mx-auto  text-center" style="background-color: gainsboro;width: 50%;"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+   <script src="cart.js"></script>
+</body>
+</html>

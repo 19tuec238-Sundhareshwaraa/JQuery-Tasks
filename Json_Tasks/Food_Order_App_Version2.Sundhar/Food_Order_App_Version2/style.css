@@ -1,0 +1,93 @@
+
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+.cart {
+    border: 1px solid #c5c4c4;
+    padding: 10px;
+    margin-left: 20px;
+    height: 820px;
+    width:270px;
+
+}
+.navbar-brand img {
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    
+}
+
+
+.navbar-nav .nav-item {
+    margin-right: 12px;
+    
+}
+
+.navbar-nav .nav-item a {
+    transition: background-color 0.3s, color 0.3s;
+    color: rgb(33, 37, 41) !important;
+    font-size: 18px !important;
+    padding: 5px;
+    
+}
+.navbar{
+    padding: 0px !important;
+}
+
+.navbar-nav .nav-item a:hover {
+    background-color:rgb(227,55,69) ;
+    color: white !important;
+    border-radius: 7px !important;
+    
+}
+.container-fluid{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card-body {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-img-top {
+    padding: 0px !important;
+    object-fit: cover;
+    height: 170px;  
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls button {
+    margin: 0 5px;
+}
+.card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 15px rgba(0,0,0,0.3); 
+}
+.btn-secondary{
+    height: 25px;
+    width: 25px;
+    justify-content: center !important;
+    padding-top: 0px !important;
+}
+.btn1{
+    color: black;
+    text-decoration: none;
+    border: none;
+    margin: 0 !important;
+}

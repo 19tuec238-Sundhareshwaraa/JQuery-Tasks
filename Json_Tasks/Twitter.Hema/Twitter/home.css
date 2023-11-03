@@ -1,0 +1,274 @@
+/* colours : 
+blue : rgb(29, 155, 240);
+light grey : rgb(83, 100, 113);
+hover : rgba(15,20,25,0.1); 
+col-3 grey : rgb(239, 243, 244);
+*/
+
+
+.vertical-navbar {
+    flex-direction: column; 
+    align-items: flex-start;
+    height: 100vh;
+    width: 250px; 
+}
+
+.nav-icons {
+    width: 1.65rem;
+    height: 1.65rem;
+    margin-right: 12px;
+}
+
+.logo{
+    height: 2rem;
+}
+
+.nav-link-css{
+    padding-top: 14px;
+}
+
+.tweet-logo{
+    width: 52px;
+    height: 52px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.nav-margin-left{
+    margin-left: 25px;
+}
+
+.col-1-css{
+    flex: 0 0 auto;
+    width: 20%;
+}
+
+.col-3-css{
+    flex: 0 0 auto;
+    width: 32.333333%;
+}
+
+.nav-tab-width{
+    width: 272px;
+}
+
+.border-button{
+    border: none;
+    background-color: transparent;
+}
+
+.settings-icon-size{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-tab-width:hover{
+    background-color: rgba(15,20,25,0.1);
+    border: none;
+}
+
+.f-15{
+    font-size: 15px;
+}
+
+.f-13{
+    font-size: 13px;
+}
+
+.f-14{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.color-1{
+    color: rgb(83, 100, 113);
+    fill: rgb(83, 100, 113);
+}
+
+.color-black{
+    color: rgb(0, 0, 0);
+    fill: rgb(0, 0, 0);
+}
+
+.f-weight-500{
+    font-weight: 500;
+}
+
+.f-weight-400{
+    font-weight: 400;
+}
+
+.f-weight-700{
+    font-weight: 700;
+}
+
+.fill-blue{
+    fill: rgb(29, 155, 240);
+    color: rgb(29, 155, 240);;
+}
+
+.fill-grey{
+    fill: rgb(83, 100, 113);
+}
+
+.active-line{
+    background-color: rgb(29, 155, 240);
+    height: 3px;
+    max-width: 70px;
+    width: 100%;
+    margin-left: 102px;
+    border-radius: 9999px;
+}
+
+.tweet-form-col-1{
+    flex: 0 0 auto;
+    width: 11.666667%;
+}
+
+.form-height{
+    height: 160px;
+}
+
+.profile-user{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.profile-user-1{
+    background-image:url('../Twitter/images/Naruto.svg');
+    background-color: #536471;
+
+}
+
+.profile-user-2{
+    background-image:url('https://pbs.twimg.com/profile_images/1560203773498105856/sRNn9i4i_bigger.jpg');
+
+}
+
+textarea::placeholder {
+    font-size: 20px; 
+    font-weight: 400;
+    vertical-align: middle;
+    color: #536471;
+  }
+
+  textarea:focus {
+    outline: none;
+  }
+
+.p-null{
+    padding: 0;
+}
+
+.width-fit{
+    width: fit-content;
+}
+
+.emoji{
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
+}
+
+.post-button{
+    height: 34px;
+    border: none;
+    width: 70px;
+    border-bottom-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    margin-left: 184px;
+}
+  
+.col-1 {
+    padding-left: 0;
+}
+
+.more-option{
+    align-items: center;
+    display: flex;
+    margin-left: 214px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.more-option:hover{
+    fill: rgb(29, 155, 240);
+    background-color: rgba(29, 155, 240, 0.1);
+    height: 40px;
+    width: 40px;
+}
+
+.px-1{
+    padding-left: 0!important;
+}
+
+.contents{
+    width: 510px;
+}
+
+.share-icon-span{
+    padding-right: 58px;
+}
+
+.share-icon-span:hover{
+    fill: rgb(29, 155, 240);
+    color: rgb(29, 155, 240);
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder { 
+    font-size: 15px!important;
+}
+
+.px-15{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.px-075{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.f-20{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.more-option-1{
+    margin-left: 214px;
+}
+
+.p-b-1rem{
+    padding-bottom: 1rem!important;
+}
+
+.p-b-05rem{
+    padding-bottom: 0.5rem!important;
+}
+
+.share-icon-span-1{
+    padding-right: 73px!important;
+}
+
+.profile-user-comment{
+    width: 30px!important;
+    height: 30px!important;
+}
+
+.hema-profile-background{
+    background-image: url(https://pbs.twimg.com/profile_images/1719576086923632640/5-aLm1Zi_bigger.png);
+}
+  
